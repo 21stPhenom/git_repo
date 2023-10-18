@@ -1,0 +1,41 @@
+Git is a version control system that's used to keep track of code and changes made to it over time.
+Github is an online code hosting platform that works with Git.
+
+Git is used locally(or on your pc) while Github is used over the internet.
+
+Using Git.
+1. Repository - 
+2. Branch - 
+3. Merging - joining two branches
+4. Local repository - repo that's only on your computer
+5. Remote repository - repo that exists on Github
+6. Working tree
+
+Commands
+1. git init => create (or initialize) a new, empty repository locally.
+
+2. git add <file> => add files to the repository
+
+3. git commit <message> => adding a description of what you did in your code
+
+4. git remote add <remote_repo> => add a remote repository location to your local repository
+
+5. git push <remote_repo> <branch> => pushes code from your local repo to your remote repo
+
+6. git status => this shows the state of your local repository
+
+7. git pull <remote_repo> <branch> => gets code from the specified branch on the remote_repo
+
+8. git log => this shows all the commits in your local repo
+
+9. git remote => shows all the remote repositories you have added to your local repo
+
+10. git remote show <remote_repo> => shows the specific remote repo tied to a name
+
+11. git clone => this is used to download code from a remote repository
+
+.gitignore => git ignores all files and folders specified here
+
+U = untracked
+A = added to the repository
+M = a file in the repo has been modified
